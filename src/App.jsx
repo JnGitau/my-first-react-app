@@ -8,9 +8,15 @@ function App() {
 
   return (
     <>
-    <div>
-     <h1>Hello World</h1>
-    </div>
+     
+        <div>
+            <h1>Hello, World!</h1>
+        </div>
+   <div>
+    <input type="text" placeholder='trial' />
+    <button type='Submit'>submit</button>
+   </div>
+
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
